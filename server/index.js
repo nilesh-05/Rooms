@@ -17,7 +17,6 @@ io.on('connection', (socket) => {
 	})
 })
 
-
 app.use(router)
 
 server.listen(PORT, () => console.log(`Server started on ${PORT}`))
