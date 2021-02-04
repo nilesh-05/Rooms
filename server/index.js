@@ -33,6 +33,7 @@ io.on('connection', (socket) => {
 	})
 
 	socket.on('disconnect', () => {
+		const user = removeUser(socket.id);
 		console.log('User left!')
 	})
 })
