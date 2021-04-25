@@ -8,6 +8,7 @@ import Messages from '../Messages/Messages'
 import TextContainer from '../TextContainer/TextContainer'
 
 let socket
+// eslint-disable-next-line
 const ENDPOINT = 'https://react-rooms.herokuapp.com/'
 const Chat = ({ location }) => {
 
